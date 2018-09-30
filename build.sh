@@ -12,5 +12,5 @@ cp -r /usr/share/fonts/chinese chinese/
 echo '拷贝系统字体文件/usr/share/fonts到容器成功！'
 
 echo '开始构建docker镜像...'
-docker build -t lubansoft/documentserver .
+docker build -t lmtoo/documentserver .
 echo '镜像构建完成！'
